@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('checkout') {
+        stage('git checkout') {
             steps {
                 echo 'check out from git'
             }
