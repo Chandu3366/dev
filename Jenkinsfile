@@ -7,7 +7,7 @@ pipeline {
                 echo 'check out from git'
             }
         }
-        stage ('build') {
+        stage ('mvn build') {
             steps {
                echo 'build passed'
             }
